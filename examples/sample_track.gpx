@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="TravelTrace Sample">
+  <metadata>
+    <name>Sample Hiking Track</name>
+    <time>2024-07-20T08:00:00Z</time>
+  </metadata>
+  <trk>
+    <name>Mountain Trail</name>
+    <trkseg>
+      <trkpt lat="30.123456" lon="118.456789"><ele>320</ele><time>2024-07-20T08:00:00Z</time></trkpt>
+      <trkpt lat="30.124000" lon="118.457000"><ele>340</ele><time>2024-07-20T08:05:00Z</time></trkpt>
+      <trkpt lat="30.124500" lon="118.457500"><ele>380</ele><time>2024-07-20T08:10:00Z</time></trkpt>
+      <trkpt lat="30.125000" lon="118.458000"><ele>420</ele><time>2024-07-20T08:15:00Z</time></trkpt>
+      <trkpt lat="30.125500" lon="118.458500"><ele>460</ele><time>2024-07-20T08:20:00Z</time></trkpt>
+      <trkpt lat="30.126000" lon="118.459000"><ele>500</ele><time>2024-07-20T08:25:00Z</time></trkpt>
+      <trkpt lat="30.126200" lon="118.459200"><ele>520</ele><time>2024-07-20T08:30:00Z</time></trkpt>
+      <trkpt lat="30.126300" lon="118.459300"><ele>525</ele><time>2024-07-20T08:35:00Z</time></trkpt>
+      <trkpt lat="30.126400" lon="118.459400"><ele>530</ele><time>2024-07-20T08:40:00Z</time></trkpt>
+      <trkpt lat="30.126500" lon="118.459500"><ele>535</ele><time>2024-07-20T08:45:00Z</time></trkpt>
+      <trkpt lat="30.126000" lon="118.459000"><ele>500</ele><time>2024-07-20T09:30:00Z</time></trkpt>
+      <trkpt lat="30.125500" lon="118.458500"><ele>460</ele><time>2024-07-20T09:35:00Z</time></trkpt>
+      <trkpt lat="30.125000" lon="118.458000"><ele>420</ele><time>2024-07-20T09:40:00Z</time></trkpt>
+      <trkpt lat="30.124500" lon="118.457500"><ele>380</ele><time>2024-07-20T09:45:00Z</time></trkpt>
+      <trkpt lat="30.124000" lon="118.457000"><ele>340</ele><time>2024-07-20T09:50:00Z</time></trkpt>
+      <trkpt lat="30.123456" lon="118.456789"><ele>320</ele><time>2024-07-20T09:55:00Z</time></trkpt>
+    </trkseg>
+  </trk>
+  <wpt lat="30.126500" lon="118.459500"><ele>535</ele><name>Summit</name><time>2024-07-20T08:45:00Z</time></wpt>
+</gpx>

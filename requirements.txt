@@ -1,0 +1,9 @@
+# TravelTrace 核心运行零依赖 / Core runtime has zero dependencies
+# 以下为可选增强依赖 / Optional enhancement dependencies
+# 安装: pip install -r requirements.txt
+
+# 可选：更快的EXIF解析（如不安装则使用内置极简解析器）
+# pillow>=10.0.0
+
+# 可选：开发测试依赖
+pytest>=7.0.0

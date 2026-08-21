@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traveltrace"
+version = "1.0.0"
+description = "旅行足迹智能可视化引擎 - 解析Google Location History/GPX/EXIF，生成交互式地图与统计报告"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [{name = "TravelTrace Contributors"}]
+keywords = ["travel", "location", "visualization", "google-takeout", "gpx", "gps", "heatmap", "leaflet"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+traveltrace = "traveltrace.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/gitstq/traveltrace"
+Repository = "https://github.com/gitstq/traveltrace"
+Issues = "https://github.com/gitstq/traveltrace/issues"
+
+[tool.setuptools.packages.find]
+include = ["traveltrace*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
